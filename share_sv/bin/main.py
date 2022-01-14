@@ -15,7 +15,7 @@ __epilog__ = click.style('''examples:
     share_sv *.CNV.xls -o share_cnv.xls -f 0.7
     share_sv *.SV.xls -o share_sv.xls -f 0.7 -d 250
 
-contact: {author} <{author_email}
+contact: {author} <{author_email}>
 '''.format(**version_info), fg='green')
 
 
